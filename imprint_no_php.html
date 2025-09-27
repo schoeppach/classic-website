@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>  
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Imprint</title>
+      
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- lokale Fonts -->
+      <link rel="stylesheet" href="css/fonts.css">
+      <!-- lokales CSS -->
+      <link rel="stylesheet" href="css/imprint.css">
+      <!-- Animation -->
+      <link rel="stylesheet" href="css/animate.min.css">  
+      <!-- Favicon -->
+      <meta name="schoeppach" content="&nbsp;">
+      <link rel="icon" type="image/png" href="favicon/favicon_schoeppach.png">
+      <link rel="apple-touch-icon-precomposed" sizes="180x180" href="favicon/apple-touch-icon-180x180.png">
+
+</head>
+<body class="d-flex flex-column min-vh-100">        
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+       <div class="container">
+
+         <!-- Logo -->
+         <div class="div">
+           <a><img src="images/schoeppach.svg" alt="schöppach" width="52" height="50"></a>
+           <a class="navbar-brand " href="index.html">Home</a>
+         </div>
+         <!-- Menu Button -->
+
+         <div class="collapse.show navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+             <li class="nav-item">
+               <a class="nav-link" aria-current="page" href="collection.html">Collection</a>
+             </li>
+
+             <li class="nav-item">
+               <a class="nav-link" aria-current="page" href="games.html">Games</a>
+             </li>
+           
+             <li class="nav-item">
+               <a class="nav-link" aria-current="page" href="nextlevel.html">Nextlevel</a>
+             </li>
+           
+             <li class="nav-item">
+               <a class="nav-link" aria-current="page" href="comingsoon.html">ComingSoon</a>
+             </li>
+
+             <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="reviews.html">Reviews</a>
+             </li>
+             
+             <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="imprint.html">Impressum</a>
+             </li>
+          
+           </ul>                
+         </div>
+       </div>
+      </nav>
+      
+      <!-- Header -->
+      <div class="header">
+            
+      <div class="row">
+	        <div class="col-md jdb-project-bg position-relative text-center mx-0 mx-md-5 mb-5 mb-md-auto me-md-0 me-lg-3">
+          <!-- Kontaktformular -->
+          <div class="imprint">
+
+            <!-- Animation -->
+            <div class="headline">      
+              <h2 class="animate__animated animate__bounce">Impressum:</h2>
+            </div>
+		        	
+                <br>
+		        	<p>Angaben gem. § 5 TMG</p>
+		        		<br>
+		        	<p><strong>Kontaktdaten</strong></p>
+
+              <p>Schoeppach<br>
+		        	<!-- <p>M. Schöppach<br>
+                    Altstadt<br>
+		        	99084 Erfurt</p> -->
+                    <p><a class="mail" href="mailto:contact@schoeppach.com">contact@schoeppach.com</a></p>
+		        		<br>
+		        	<p><strong>Verantwortlicher für journalistisch<br>redaktionelle Inhalte gem. § 55 II RstV:</strong></p>
+              
+              <p>Schoeppach</p>
+		        	<!-- <p>M. Schöppach</p> -->
+		        		<br>
+		        	<p><strong> Haftung für Inhalte </strong></p>
+              
+                    <p> Im Sinne von § 7 Absatz 1 TMG sind wir<br> für die eigenen Inhalte auf dieser Webseite <br>
+		        	verantwortlich. Durch § 8 bis einschließlich<br> 10 TMG sind wir aber nicht verpflichtet, <br>
+		        	gespeicherte oder übermittelte fremde<br> Inhalte zu überwachen oder diese auf <br> 
+		        	Rechtswidrigkeit zu prüfen.<br> Das befreit uns jedoch nicht von der Pflicht,<br> der Sperrung 
+		        	und Entfernung von Informationen<br> nach geltenden Gesetzen nachzukommen. </p>
+                    
+            </div>
+          
+		      </div>
+
+		      <!-- Inhalt Impressum -->      
+          <div class="col-md text-center mx-0 mx-md-5 mb-5 mb-md-auto me-md-0 me-lg-3">
+
+            <!-- Formular -->
+		        <div class="formular">
+            
+		      	  <h2>Feedback:</h2><br>
+
+              <!-- <h5><i>leider noch nicht funktionstüchtig</i></h5> -->
+		      	  	<div class="col">
+
+		      	  		<!--deaktivieren wegen github bitte diese Zeile nicht mehr auskommentieren --> 
+                  <form id="kontaktform" action="" method="post">
+                  
+                  <form id="kontaktform" action="evaluation.php" method="post"> 
+                    <!-- <form id="kontaktform" action="https://test.jaderbass.de/formtester.php" method="post"></form> -->
+
+                      <div class="form-group mb-3">
+		      	  			  	<label for="Alias">Name</label>
+		      	  			  	<input type="text" name="Alias" id="Alias" class="form-control" required>				
+		      	  			  	<small class="form-text text-muted">Bitte hier ihren Alias eintragen</small>
+		      	  			  </div>
+                    
+		      	  			    <div class="form-group g-4">
+		      	  			    	<label for="Bewertung">Wie gut hat ihnen diese Website gefallen?</label>
+		      	  			    	<select name="Bewertung[]" id="Bewertung" class="form-control">
+                            
+		      	  			    		<option value="" disabled selected>Option auswählen</option>
+		      	  			    		<option value="Legende">Legende</option>
+		      	  			    		<option value="Nicenstein">Nicenstein</option>
+		      	  			    		<option value="Easy Peasy Lemon Squeezy">Easy Peasy Lemon Squeezy</option>
+		      	  			    		<option value="Find Ick janz Knorke">Find Ick janz Knorke</option>																
+		      	  			    		<option value="Genießbar">Genießbar</option>
+		      	  			    		<option value="Mir doch egal">Mir doch egal</option>
+		      	  			    		<option value="Cringe">Cringe</option>
+		      	  			    		<option value="Wirklich? Nicht dein Ernst!?">Wirklich? Nicht dein Ernst!?</option>
+		      	  			    		<option value="Lauch!!!">Lauch!!!</option>
+		      	  			    		<option value="Fail">Fail</option>
+                          
+                          </select>
+		      	  			    </div>                  
+		      	  				<br>
+                      
+		      	  			<button class="btn btn-warning">Senden</button>
+		      	  		</form>
+
+		      	  	</div>            
+              </div>	
+          </div>    
+        </div>
+      </div>
+
+		  <!-- Footer -->
+		  <footer class="bg-black text-center text-lg-start mt-auto">
+        <div class="container py-3">
+          <div class="row text-warning justify-content-center align-item-start" >
+            
+            <div class="col-md-8 text-center mt-3">
+              <p>
+                created by &copy; schoeppach
+                <span id="jahr"><time datetime="2023" class="text-warning">2022-2025</time></span>
+                <a href="imprint.html" class="text-light"> &nbsp; Impressum &nbsp; </a>
+                <!-- &#124; <a href="https://www.youtube.com/watch?v=3yE_eT3WQ9c&autoplay=1&end=256" target="_blank" class="text-light"> &nbsp; Ganz klar gegen Nazis &nbsp; </a> -->
+                <!-- &#124; <a href="mp3/WIZO-Ganz_klar_gegen_Nazis.mp3" target="_blank" class="text-light"> &nbsp; Ganz klar gegen Nazis &nbsp; </a> -->
+                &#124; <a href="policy.html" class="text-light"> &nbsp; Datenschutz &nbsp; </a>
+              </p>
+            </div>
+            
+          </div>
+        </div>
+      </footer>
+      
+      <!-- Bootstrap JavaScript -->
+      <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>            
